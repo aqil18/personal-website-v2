@@ -4,8 +4,8 @@
 
 // Render IntroCard
 import IntroCard from "../../components/IntroCard/IntroCard";
-import { portfolio } from "../../portfolio";
+import { greeting } from "../../portfolio";
 
 export default function Intro() {
-    return <IntroCard username={portfolio.greeting}/>;
+    return <IntroCard username={greeting.username}/>;
 }
