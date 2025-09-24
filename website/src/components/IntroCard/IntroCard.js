@@ -1,8 +1,8 @@
 // Displays greeting
 
-function IntroCard(greeting) {
+function IntroCard({ username }) {
   return (
-    <h2>Hi, my name is {greeting.username}</h2>
+    <h2>Hi, my name is {username}</h2>
   );
 }
 export default IntroCard;
