@@ -5,7 +5,7 @@ export default function Main() {
         <div className="main">
         <Intro />
         <video width="100%" controls preload="metadata" poster="[URL_TO_POSTER_IMAGE]">
-            <source src="https://[YOUR_R2_PUBLIC_ENDPOINT]/my-video.mp4" type="video/mp4">
+            <source src="https://pub-7a8aa7944aa34843b95f986417b76809.r2.dev/portrait_pics.mov" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         </div>
