@@ -1,6 +1,15 @@
+@font-face {
+  font-family: myFont; /* set name */
+  src: url(Maghrib-MVZpx.ttf) format('truetype'); /* url of the font */
+}
+
+
 .container {
   /* Must also set a position for consistent layering */
-  position: relative;
+  position: absolute;
   z-index: 1; /* Explicitly setting it to 1 just to be safe */
   color: white;
+  font-family: myFont, sans-serif;
+  justify-content: center; /* Centers horizontally (along the main axis) */
+  align-items: center;    /* Centers vertically (along the cross axis) */
 }
