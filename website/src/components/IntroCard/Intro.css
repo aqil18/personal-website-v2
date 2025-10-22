@@ -1,3 +1,6 @@
 .container {
+  /* Must also set a position for consistent layering */
+  position: relative;
+  z-index: 1; /* Explicitly setting it to 1 just to be safe */
   color: white;
 }
