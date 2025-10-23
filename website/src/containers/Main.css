@@ -1,7 +1,6 @@
 .main {
   position: relative;
-  /* 1. Enable Flexbox */
-  display: flex; 
+
   
   /* 2. Stack children vertically */
   flex-direction: column; 

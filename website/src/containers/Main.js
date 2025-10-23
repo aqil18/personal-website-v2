@@ -5,7 +5,6 @@ export default function Main() {
     return (
         <div className="main">
         <Video/>
-        <Intro/>
         </div>
     );
 }
