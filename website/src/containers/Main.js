@@ -4,6 +4,7 @@ import "./Main.css";
 export default function Main() {
     return (
         <div className="main">
+        <Intro/>
         <Video/>
         </div>
     );
