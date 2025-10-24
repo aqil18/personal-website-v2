@@ -1,6 +1,6 @@
 // --- 1. Navigation Component ---
 // This corresponds to your <nav> section
-const Navbar = () => {
+export default function  Navbar() {
   return (
     <nav className="bg-black text-white p-6 md:p-8 flex justify-between items-center fixed w-full z-10">
       <a href="#" className="text-3xl font-bold">a!</a>

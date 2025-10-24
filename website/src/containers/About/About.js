@@ -1,6 +1,6 @@
 // --- 3. About Component ---
 // This corresponds to your "About" section
-const About = () => {
+export default function  About(){
   // Placeholder for the circular profile picture
   const profilePicUrl = 'https://placehold.co/400x400/eeeeee/333?text=Profile+Photo';
   

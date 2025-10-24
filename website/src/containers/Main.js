@@ -1,13 +1,15 @@
-import Intro from "./Welcome/Welcome";
-import Video from "./Welcome/Video/Video";
-import Portfolio from "./Portfolio/Portfolio";
+import Navbar from "./Navbar/Navbar";
+import Welcome from "./Welcome/Welcome";
+import About from "./About/About";
+import Projects from "./Projects/Projects";
 import "./Main.css";
 export default function Main() {
     return (
         <div className="main">
-        <Intro/>
-        <Video/>
-        <Portfolio/>
+        <Navbar/>
+        <Welcome/>
+        <About/>
+        <Projects/>
         </div>
     );
 }

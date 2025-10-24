@@ -6,6 +6,6 @@
 import IntroCard from "../../components/IntroCard/IntroCard";
 import {greeting} from "../../portfolio";
 
-export default function Intro() {
+export default function Welcome() {
     return <IntroCard username={greeting.username}/>;
 }

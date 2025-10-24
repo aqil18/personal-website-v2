@@ -1,6 +1,6 @@
 // --- 4. Projects Component ---
 // This corresponds to your "Projects" section
-const Projects = () => {
+export default function Projects(){
   // A simple component for the project placeholder cards
   const ProjectCard = () => (
     <div className="bg-white aspect-square rounded-2xl shadow-lg
