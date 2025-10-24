@@ -1,5 +1,5 @@
-import Intro from "./Intro/Intro";
-import Video from "./Video/Video";
+import Intro from "./Welcome/Welcome";
+import Video from "./Welcome/Video/Video";
 import Portfolio from "./Portfolio/Portfolio";
 import "./Main.css";
 export default function Main() {
