@@ -6,12 +6,12 @@ import Projects from "./containers/Projects/Projects";
 
 function App() {
   return (
-        <div className="App">
-        <Navbar/>
-        <Welcome/>
-        <About/>
-        <Projects/>
-        </div>
+    <div className="App">
+    <Navbar/>
+    <Welcome/>
+    <About/>
+    <Projects/>
+    </div>
   );
 }
 

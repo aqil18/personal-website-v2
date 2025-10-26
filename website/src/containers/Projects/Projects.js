@@ -1,3 +1,4 @@
+import React from "react";
 // --- 4. Projects Component ---
 // This corresponds to your "Projects" section
 export default function Projects(){
