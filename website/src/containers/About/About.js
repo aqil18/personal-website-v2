@@ -10,7 +10,7 @@ export default function  About(){
         
         {/* Text Content */}
         <div className="flex-1">
-          <h2 className="text-5xl md:text-6xl font-bold mb-6">About</h2>
+          <h2 className="text-5xl md:text-6xl font-bold mb-6">About Aqil</h2>
           <p className="text-lg text-gray-300 leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

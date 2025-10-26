@@ -4,12 +4,10 @@
   
   /* 2. Stack children vertically */
   flex-direction: column; 
-  gap: 100px;
   /* 3. Center vertically (main axis) */
   justify-content: center; 
   
   /* 4. Center horizontally (cross axis) */
   align-items: center;
   /* Required for visibility/context: */
-  height: 100vh; /* Example: full viewport height */
-}
+};

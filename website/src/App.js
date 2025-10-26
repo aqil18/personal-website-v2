@@ -13,6 +13,6 @@ function App() {
     <Projects/>
     </div>
   );
-}
+};
 
 export default App;
