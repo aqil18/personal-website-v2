@@ -26,7 +26,7 @@ export default function  About(){
         {/* Profile Image */}
         <div className="flex-shrink-0 mt-8 md:mt-0">
           <img 
-            src={profilePicUrl} 
+            src={"headshot.jpg"} 
             alt="Portrait"
             className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-gray-800 shadow-lg"
           />
