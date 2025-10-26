@@ -5,7 +5,13 @@
 // Render IntroCard
 import IntroCard from "../../components/IntroCard/IntroCard";
 import {greeting} from "../../portfolio";
+import Video from "../../containers/Welcome/Video/Video";
 
 export default function Welcome() {
-    return <IntroCard username={greeting.username}/>;
+    return <section id="welcome">
+        <div>
+        <Video/>
+        <IntroCard username={greeting.username}/>
+    </div>
+    </section>;
 }
