@@ -15,13 +15,14 @@ function WelcomeTyping() {
         <Typewriter
           words={[
             "Hi, I'm Aqil!",                // English
+            "ഹൈ, ഞാൻ അഖിൽ!",               // Malayalam
+            "!مرحباً، أنا عقيل",            // Arabic
             "Salut, je suis Aqil!",         // French
             "Hai, saya Aqil!",              // Malay / Indonesian
             "¡Hola, soy Aqil!",             // Spanish
-            "!مرحباً، أنا عقيل",            // Arabic
             "こんにちは、アキルです！",         // Japanese
             "안녕하세요, 저는 Aqil입니다!",        // Korean
-            "ഹൈ, ഞാൻ അഖിൽ!",               // Malayalam
+            
           ]}
           loop={0}
           cursor
