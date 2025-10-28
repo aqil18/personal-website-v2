@@ -11,18 +11,20 @@ const greeting = {
 
 const projects = [
   {name: "Fully Self Driving Car",
-    link: "#",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    thumbnail: "https://via.placeholder.com/400x300"
+    link: "https://github.com/aqil18/fully-self-driving-pi", // Use a real link or '#'
+    desc: "A simulation project demonstrating autonomy using convulutional neural networks and behavioural cloning.",
+    thumbnail: "/picar.jpg" // More descriptive placeholder
   },
   {name: "UBC Workday Hero",
-    link: "#",
-    desc: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    thumbnail: "https://via.placeholder.com/400x300"
+    link: "https://github.com/aqil18/ubc-workday-hero",
+    desc: "A browser extension built to enhance the user experience of the UBC Workday system with custom shortcuts and UI improvements.",
+    thumbnail: "/workday.png"
   },
+  // Add more projects here
 ]
 
 
 export {
   greeting,
+  projects
 };
