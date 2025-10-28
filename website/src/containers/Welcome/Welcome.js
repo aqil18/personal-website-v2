@@ -18,10 +18,8 @@ function WelcomeTyping() {
             "Salut, je suis Aqil!",         // French
             "Hai, saya Aqil!",              // Malay / Indonesian
             "¡Hola, soy Aqil!",             // Spanish
-            "Hallo, ich bin Aqil!",         // German
             "!مرحباً، أنا عقيل",            // Arabic
             "こんにちは、アキルです！",         // Japanese
-            "你好，我是Aqil！",               // Chinese (Simplified)
             "안녕하세요, 저는 Aqil입니다!",        // Korean
             "ഹൈ, ഞാൻ അഖിൽ!",               // Malayalam
           ]}
