@@ -1,9 +1,7 @@
 // --- 3. About Component ---
 // This corresponds to your "About" section
 export default function  About(){
-  // Placeholder for the circular profile picture
-  const profilePicUrl = 'https://placehold.co/400x400/eeeeee/333?text=Profile+Photo';
-  
+    
   return (
     <section id="about" className="bg-black text-white p-6 md:p-16 lg:p-24">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
