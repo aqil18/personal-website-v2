@@ -29,10 +29,10 @@ export default function Navbar() {
         </li>
         <li>
           <a 
-            href="#experience" // Points to the LogoScroll or Experience section
+            href="#about" // Points to the LogoScroll or Experience section
             className="text-lg font-medium hover:text-yellow-400 transition-colors duration-300"
           >
-            Experience
+            Resume
           </a>
         </li>
         <li>

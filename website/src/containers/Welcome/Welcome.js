@@ -1,22 +1,25 @@
 import React from 'react';
 // Import greeting to get the title text from your portfolio config
-import { greeting } from '../../portfolio';
-import { useEffect, useState } from "react";
+
 
 import { Typewriter } from 'react-simple-typewriter';
 
 function WelcomeTyping() {
   return (
-    <h1 className="text-4xl font-bold text-center mt-20 text-gray-900">
+    <h1 className="text-5xl sm:text-7xl lg:text-8xl font-extrabold 
+                     text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">
       <Typewriter
         words={[
-          "Welcome, I'm Aqil!",
-          "Bienvenue, je suis Aqil!",
-          "Selamat datang, saya Aqil!",
-          "Bienvenido, soy Aqil!",
-          "Willkommen, ich bin Aqil!",
-          "مرحبا، أنا عقيل!",
-          "ようこそ、アキルです！",
+          "Hi, I'm Aqil!",                // English
+          "Salut, je suis Aqil!",         // French
+          "Hai, saya Aqil!",              // Malay / Indonesian
+          "¡Hola, soy Aqil!",             // Spanish
+          "Hallo, ich bin Aqil!",         // German
+          "!مرحباً، أنا عقيل",            // Arabic
+          "こんにちは、アキルです！",         // Japanese
+          "你好，我是Aqil！",               // Chinese (Simplified)
+          "안녕하세요, 저는 Aqil입니다!",        // Korean
+          'ഹൈ, ഞാൻ അഖിൽ!'             // Malayalam
         ]}
         loop={0}
         cursor
@@ -63,12 +66,7 @@ const Welcome = () => {
       <div className="relative z-10 text-center px-4 flex flex-col items-center">
         
         {/* Title from portfolio.js, with gradient styling */}
-        <h1 
-          className="text-5xl sm:text-7xl lg:text-8xl font-extrabold 
-                     text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600"
-        >
-          {greeting.title || "Hi, I'm Aqil"}
-        </h1>
+      <WelcomeTyping />
 
         {/* Subtitle */}
         <p className="text-gray-200 text-lg md:text-2xl mt-4 mb-10 max-w-2xl font-light">
