@@ -6,29 +6,35 @@ import { Typewriter } from 'react-simple-typewriter';
 
 function WelcomeTyping() {
   return (
-    <h1 className="text-5xl sm:text-7xl lg:text-8xl font-extrabold 
-                     text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">
-      <Typewriter
-        words={[
-          "Hi, I'm Aqil!",                // English
-          "Salut, je suis Aqil!",         // French
-          "Hai, saya Aqil!",              // Malay / Indonesian
-          "¡Hola, soy Aqil!",             // Spanish
-          "Hallo, ich bin Aqil!",         // German
-          "!مرحباً، أنا عقيل",            // Arabic
-          "こんにちは、アキルです！",         // Japanese
-          "你好，我是Aqil！",               // Chinese (Simplified)
-          "안녕하세요, 저는 Aqil입니다!",        // Korean
-          'ഹൈ, ഞാൻ അഖിൽ!'             // Malayalam
-        ]}
-        loop={0}
-        cursor
-        cursorStyle="_"
-        typeSpeed={80}
-        deleteSpeed={40}
-        delaySpeed={1500}
-      />
-    </h1>
+    <div className="flex justify-center items-center text-center">
+      <h1
+        className="text-5xl sm:text-7xl lg:text-8xl font-extrabold
+                   text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600
+                   leading-tight"
+      >
+        <Typewriter
+          words={[
+            "Hi, I'm Aqil!",                // English
+            "Salut, je suis Aqil!",         // French
+            "Hai, saya Aqil!",              // Malay / Indonesian
+            "¡Hola, soy Aqil!",             // Spanish
+            "Hallo, ich bin Aqil!",         // German
+            "!مرحباً، أنا عقيل",            // Arabic
+            "こんにちは、アキルです！",         // Japanese
+            "你好，我是Aqil！",               // Chinese (Simplified)
+            "안녕하세요, 저는 Aqil입니다!",        // Korean
+            "ഹൈ, ഞാൻ അഖിൽ!",               // Malayalam
+          ]}
+          loop={0}
+          cursor
+          cursorStyle="|"
+          cursorClassName="text-yellow-400"
+          typeSpeed={80}
+          deleteSpeed={40}
+          delaySpeed={1500}
+        />
+      </h1>
+    </div>
   );
 }
 
