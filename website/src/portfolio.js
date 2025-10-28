@@ -1,11 +1,13 @@
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
+
 const greeting = {
   username: "Aqil",
-  title: "Hi all, I'm Aqil",
+  title: "Welcome, I'm Aqil",
   // subTitle: emoji(
   //   "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   // ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Rmaa8Q_A2sOAUBPj-rYb8tmR349f5NLj/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -28,8 +30,41 @@ const projects = [
   // Add more projects here
 ]
 
+// --- Data for the connect links ---
+// You can easily add or remove links here
+const socialLinks = [
+  {
+    name: "LinkedIn",
+    icon: FaLinkedin,
+    handle: "Connect Professionally",
+    // Replace with your actual LinkedIn URL
+    href: "https://www.linkedin.com/in/aqil-f" 
+  },
+  {
+    name: "GitHub",
+    icon: FaGithub,
+    handle: "See My Code",
+     // Replace with your actual GitHub URL
+    href: "https://www.github.com/aqil18"
+  },
+  {
+    name: "Email",
+    icon: FaEnvelope,
+    handle: "Send Me a Message",
+     // Replace with your actual email
+    href: "mailto:aqilfaizalali@gmail.com"
+  },
+  {
+    name: "Instagram",
+    icon: FaInstagram,
+    handle: "Follow My Journey",
+     // Replace with your actual Instagram URL
+    href: "https://www.instagram.com/aqqfz"
+  }
+];
 
 export {
   greeting,
-  projects
+  projects,
+  socialLinks
 };
