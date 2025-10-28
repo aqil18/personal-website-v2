@@ -34,7 +34,7 @@ export default function About() {
             About Me
           </h2>
           <p className="text-lg text-gray-300 leading-relaxed mb-10">
-            I'm a Computer Science student at the University of British Columbia (UBC) with a passion for solving real-world problems through software development. I enjoy exploring fields like AI, robotics, and system design while contributing to impactful projects.
+            Welcome Welcome! I'm a Computer Science student at the University of British Columbia with a passion for solving real-world problems through software development. I enjoy exploring fields like AI, robotics, and system design while contributing to impactful projects. On the side, I am a professional hobbyist and as of right now I'm training for a triathlon and picking up snowboarding. 
           </p>
 
           {/* Resume Button */}
