@@ -7,7 +7,7 @@ export default function  Navbar() {
       <ul className="flex space-x-6 md:space-x-10">
         <li><a href="#about" className="text-lg hover:text-gray-300 transition-colors">About</a></li>
         <li><a href="https://github.com/aqil18" className="text-lg hover:text-gray-300 transition-colors">Projects</a></li>
-        <li><a href="https://www.linkedin.com/in/aqil-f/" className="text-lg hover:text-gray-300 transition-colors">Links</a></li>
+        <li><a href="https://www.linkedin.com/in/aqil-f/" className="text-lg hover:text-gray-300 transition-colors">Contact</a></li>
       </ul>
     </nav>
   );
