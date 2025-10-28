@@ -44,7 +44,7 @@ export default function Connect() {
   return (
     <section 
       id="connect" 
-      className="bg-black text-white p-6 md:p-16 lg:p-24 min-h-screen
+      className="bg-black text-white p-6 md:p-16 lg:p-24
                  flex items-center justify-center" // Centering the content
     >
       <div className="max-w-4xl w-full mx-auto text-center">

@@ -62,7 +62,7 @@ export default function Projects(){
   }
 
   return (
-    <section id="projects" className="bg-black text-white p-6 md:p-16 lg:p-24 min-h-screen">
+    <section id="projects" className="bg-black text-white p-6 md:p-16 lg:p-24 ">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-16 text-center 
                        text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">

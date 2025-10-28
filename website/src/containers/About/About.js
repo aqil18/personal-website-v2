@@ -10,7 +10,7 @@ export default function About() {
     <section 
       id="about" 
       className="bg-black text-white p-6 md:p-16 lg:p-24 
-                 min-h-screen flex items-center" // Vertically center content
+                flex items-center" // Vertically center content
     >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center justify-between gap-12 lg:gap-20">
         
