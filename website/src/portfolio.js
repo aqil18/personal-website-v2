@@ -20,6 +20,11 @@ const projects = [
     desc: "A browser extension built to enhance the user experience of the UBC Workday system with custom shortcuts and UI improvements.",
     thumbnail: "/workday.png"
   },
+  {name: "Sign Language Detector",
+    link: "https://github.com/aqil18/sign-language-detector",
+    desc: "A web application that translates sign language gestures into text using computer vision and machine learning.",
+    thumbnail: "/signlang.png"
+  }
   // Add more projects here
 ]
 
