@@ -1,4 +1,6 @@
 import React from "react";
+// import projects from "../../portfolio.js";
+
 // --- 4. Projects Component ---
 // This corresponds to your "Projects" section
 export default function Projects(){
