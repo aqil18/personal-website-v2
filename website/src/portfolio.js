@@ -1,4 +1,5 @@
-import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope, FaYoutube} from 'react-icons/fa';
+import { MdContactPage } from "react-icons/md";
 
 const greeting = {
   username: "Aqil",
@@ -55,12 +56,25 @@ const socialLinks = [
     href: "mailto:aqilfaizalali@gmail.com"
   },
   {
+    name: "Resume",
+    icon: MdContactPage,
+    handle: "View My Resume",
+     // Replace with your actual email
+    href: "https://videos.archivedbyaqil.com/Resume_Aqil_FA_Number_Less.pdf"
+  },
+  {
     name: "Instagram",
     icon: FaInstagram,
     handle: "Follow My Journey",
      // Replace with your actual Instagram URL
     href: "https://www.instagram.com/archivedbyaqil"
-  }
+  },
+  {
+    name: "YouTube",
+    href: "https://www.youtube.com/@archivedbyaqil",
+    handle: "Watch my demos",
+    icon: FaYoutube,
+  },
 ];
 
 export {
