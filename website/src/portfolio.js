@@ -7,7 +7,7 @@ const greeting = {
   //   "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   // ),
   resumeLink:
-    "https://drive.google.com/file/d/1Rmaa8Q_A2sOAUBPj-rYb8tmR349f5NLj/view?usp=sharing", // Set to empty to hide the button
+    "https://videos.archivedbyaqil.com/Resume_Aqil_FA_Number_Less.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -59,7 +59,7 @@ const socialLinks = [
     icon: FaInstagram,
     handle: "Follow My Journey",
      // Replace with your actual Instagram URL
-    href: "https://www.instagram.com/aqqfz"
+    href: "https://www.instagram.com/archivedbyaqil"
   }
 ];
 
